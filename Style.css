@@ -1,0 +1,74 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body {
+    background: #368dda;
+    text-align: center;
+  }
+  
+#h1Style{
+    font-family: 'Sansita Swashed', cursive;
+    padding-top: 20 px;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+}
+.box {
+    width: 300px;
+    margin: 50px auto;
+    background: #00bfb6;
+    padding: 20px;
+    text-align: center;
+    font-weight: 900;
+    color: #fff;
+    font-family:'Sansita Swashed', cursive;
+    position: relative;
+  }
+  .bubble1:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid #00bfb6;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #00bfb6;
+    border-bottom: 10px solid transparent;
+    right: -19px;
+    top: 6px;
+  }
+  .bubble2:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid #00bfb6;
+    border-top: 10px solid #00bfb6;
+    border-bottom: 10px solid transparent;
+    left: -19px;
+    top: 6px;
+  }
+  .bubble3:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid #00bfb6;
+    border-top: 10px solid #00bfb6;
+    border-bottom: 10px solid transparent;
+    right: 19px;
+    bottom: -19px;
+  }
+  h3{
+    font-family:'Sansita Swashed', cursive;
+    display: inline;
+  }
+  button{
+      background-color: rgb(180, 165, 25);
+      width: 100px;
+      height: 80px;
+      border-radius:30%;
+  }
