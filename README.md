@@ -1,9 +1,2 @@
-# Fullcourse
+# Welcome to my repository
 
-
-
-
-
-
-
-Welcome to my repository
