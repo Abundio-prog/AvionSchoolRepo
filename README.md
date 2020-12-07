@@ -2,4 +2,4 @@
 <br><br>
 ## Activities
 
-[best practices](
+[best practices](Day1BestPractice.html "Best Practices")
