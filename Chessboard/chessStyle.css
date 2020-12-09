@@ -11,15 +11,24 @@ body{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 350px;
-    height: 350px;
+    width: 50vw;
+    height: 50vw;
   }
-  div{
-    width: 50px;
-    height: 50px;
-    background-color:rgb(6, 3, 39);
-    
-  }
-  div:nth-child(even){
-    background-color:rgb(90, 172, 13);
-  }
+table{
+  margin: 0 auto;
+	border-collapse: collapse;
+	background: rgb(235, 91, 91);
+}
+tr:nth-child(odd) td:nth-child(even){
+  background:rgb(27, 2, 2);
+  width: 5vw;
+  height: 5vw;
+}
+tr:nth-child(even) td:nth-child(odd){
+  background:rgb(27, 2, 2);
+  width: 5vw;
+  height: 5vw;
+}
+#row{
+  background: rgb(235, 91, 91);
+}
