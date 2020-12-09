@@ -5,3 +5,5 @@
 [best practices](Day1BestPractice.html "Best Practices")
 <br>
 [tribute page](tributePage/index.html "Tribute Page")
+<br>
+[Chessboard](Chessboard/chessBoard.html "Chessboard")
